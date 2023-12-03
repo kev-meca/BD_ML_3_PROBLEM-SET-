@@ -74,5 +74,3 @@ if (!primera_vez) {
 }
 
 
-# flujo de trabajo
-source(file.path(codigo_dir, "02_classification.R"), encoding = "UTF-8")
