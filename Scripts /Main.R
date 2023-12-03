@@ -81,7 +81,11 @@ if (!primera_vez) {
   source(file.path(codigo_dir, "Scripts/Data_cleaning.R"), encoding = "UTF-8")
   
   # Guardar resultados
-  saveRDS(dat_limpios, file.path(resultados_dir, "Functions/Cleaning.R"))
+  saveRDS(dat_limpios, file.path(resultados_dir, "Cleaning.R"))
 }
 
-
+# Asegúrate de tener una función de preprocesamiento definida, por ejemplo:
+tu_funcion_de_preprocesamiento <- function() {
+  # ... Código de preprocesamiento ...
+  return(datos_limpios)
+}
